@@ -1,0 +1,50 @@
+div{
+	font-family: Oswald;
+	font-size: 1.5rem;
+	text-align:center;
+	text-transform: uppercase;
+	color: black;
+	border-bottom: 1px solid white;
+	background-color: skyblue;
+	padding: 40px 0;
+}
+.d1, .d2, .d3, .d4, .d5{
+	float: left;
+	width: 18%;
+	height: 5px;
+	margin-left: 1px;
+	background: deepskyblue;
+	color: white;
+}
+.d7, .d8, .d9, .d10{
+	float: left;
+	width: 18%;
+	height: 5px;
+	margin-left: 1px;
+}
+.d12, .d13, .d14, .d15{
+	float: left;
+	width: 18%;
+	height: 5px;
+	margin-left: 1px;
+}
+.d17, .d18, .d19, .d20{
+	float: left;
+	width: 18%;
+	height: 5px;
+	margin-left: 1px;
+}
+.d22, .d23, .d24, .d25{
+	float: left;
+	width: 18%;
+	height: 5px;
+	margin-left: 1px;
+}
+.d6, .d11, .d16, .d21{
+	float: left;
+	width: 18%;
+	height: 5px;
+	margin-left: 1px;
+	background: deepskyblue;
+	color: white;
+}

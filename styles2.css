@@ -1,0 +1,32 @@
+div{
+	font-family: Oswald;
+	text-align:center;
+	text-transform: uppercase;
+	padding: 20px 0;
+	width: 240px;
+}
+#Basic{
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: green;
+	border-top: 3px solid green;
+}
+#block{
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: #ffffff;
+	background-color: green;
+}
+.option{
+	float: center;
+	color: grey;
+}
+.o2, .o4, .o6 { background-color: #ccc; }
+#Purchase {
+	font-weight: 900;
+	color: green;
+	border: 3px solid green;
+}
+.s2 {
+	border-bottom: 3px solid green;
+}

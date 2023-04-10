@@ -1,0 +1,21 @@
+table{
+	table-layout: fixed;
+	width: 500px;
+	height: 250px;
+	color: black;
+	background-color: skyblue;
+	border-collapse: collapse;
+	border: 1px solid white;
+	text-align: center;
+}
+.t1, .t2, .t3, .t4, .d1{
+	background: deepskyblue;
+	text-align: left;
+	color: white;
+}
+.d2, .d3, .d4, .d5{
+	background: deepskyblue;
+	color: white;}
+td{
+	border: 1px solid white;
+}

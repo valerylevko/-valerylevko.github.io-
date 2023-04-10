@@ -1,0 +1,29 @@
+table{
+	table-layout: fixed;
+	font-size: 1.2rem;
+	width: 1000px;
+	height: 200px;
+	color: white;
+	background-color: green;
+	border-collapse: collapse;
+	border: 1px solid black;
+	text-align: center;
+}
+.t1, .t2, .t3, .t4, .t5, .t6, .t7, .t8, .t9, .t10, 
+.t11, .t12, .t13, .t14, .t15, .t16, .t17, .t18{
+	background: springgreen;
+	text-align: left;
+	color: black;
+}
+.d1, .d2, .d3, .d4, .d5, .d6, .d7, .d8, .d9, .d10, 
+.d11, .d12, .d13, .d14, .d15, .d16, .d17, .d18{
+	background: mediumspringgreen;
+	text-align: left;
+	color: black;
+}
+td{
+	border: 1px solid black;
+}
+tr: nth-child(2n) {
+  color: green;
+}

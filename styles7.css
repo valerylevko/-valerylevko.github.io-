@@ -1,0 +1,119 @@
+.main{
+	text-align:center;
+	text-transform: uppercase;
+	font-size: 2rem;
+}
+.wrap{
+	width: 1300px;
+	height:420px;
+	margin:50px auto;
+	border:2px solid grey;
+	position: relative;
+}
+.swipe{
+	position: absolute;
+	top: 70px;
+	width: 40px;
+	height: 40px;
+	border:2px solid grey;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 40px;
+	background-color: #fff;
+}
+.swipe_left{
+	left: -23px;
+}
+.swipe_right{
+	right:-23px;
+}
+.c1, .c2, .c3{
+	text-align: center;
+	left: -2px;
+	font-size: 1.5rem;
+	float:left;
+	width: 323px;
+	height: 70px;
+	line-height: 60px;
+	color: grey;
+	border-bottom:1px solid grey;
+	border-right: 1px solid grey;
+}
+.c4{
+	text-align: center;
+	left: -2px;
+	font-size: 1.5rem;
+	float:left;
+	width: 323px;
+	height: 70px;
+	line-height: 60px;
+	color: grey;
+	border-bottom:1px solid grey;
+}
+.product-item1, .product-item2,
+.product-item3{
+	font-size: 16px;
+	font-family: Oswald;
+	float: left;
+	width: 323px;
+	border-right:1px solid grey;
+}
+.product-item4 {
+	font-size: 16px;
+	font-family: Oswald;
+	float: left;
+	width: 323px;
+}
+.product-item1 img, .product-item2 img, 
+.product-item4 img   {
+	margin-left: auto;
+    margin-right: auto;
+   display: block;
+   width: 75%;
+}
+.product-item3 img {
+	margin-left: auto;
+    margin-right: auto;
+   display: block;
+   width: 93%;
+}
+.product-list1, .product-list2,
+.product-list3, .product-list4 {
+   background: #fafafa;
+   padding: 15px 0;
+   text-align: center;
+}
+.product-list1 h3, .product-list2 h3,
+.product-list3 h3, .product-list4 h3  {
+   font-weight: 400;
+   color: #444444;
+   margin: 0 0 10px 0;
+}
+.price1, .price2, .price3, .price4 {
+   font-size: 17px;
+   color: indigo;
+   display: block;
+   margin-bottom: 12px;
+}
+.button1, .button3, .button4{
+   text-decoration: none;
+   display: inline-block;
+   padding: 0 12px;
+   background: green;
+   color: white;
+   text-transform: uppercase;
+   font-size: 12px;
+   line-height: 28px;
+   transition: .3s ease-in;
+}
+.button2 {
+   text-decoration: none;
+   display: inline-block;
+   padding: 0 12px;
+   background: orange;
+   color: white;
+   text-transform: uppercase;
+   font-size: 12px;
+   line-height: 28px;
+   transition: .3s ease-in;
+}

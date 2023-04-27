@@ -1,0 +1,149 @@
+/*
+* Background Images - Practice
+* CSS Styles
+*
+*/
+
+
+/* General */
+
+
+
+html{
+	background-color: dimgray;
+}
+header{
+	background-image: url(bg-01.jpg);
+	background-size: cover;
+	height: 650px;
+	color:#ffffff;
+}
+.button1{
+	text-decoration: none;
+	color:#ffffff;
+	background-color: #ff0033;
+	font-size: 3rem;
+	padding: 2px 1px 0;
+	position: relative;
+	top: 400px;
+	left:500px;
+}
+h1{
+	text-align: center;
+	font-size: 6rem;
+	position: relative;
+	top:200px;
+
+}
+ul.menu li {
+	font-size: 2rem;
+	display: inline-block;
+	padding: 5px 10px;
+	text-align: center;
+}
+#topbar{
+	background: black;
+}
+a{
+	text-decoration: none;
+	color:#ffffff;
+}
+a:hover{
+	background-color: #ff0033;
+}
+h2{
+	font-size: 3rem;
+	text-align: center;
+	color: #ffffff;
+}
+#tour, #gallery, figure{
+	background-image: url(bg.jpg);
+	background-color: dimgray;
+	background-size: cover;
+}
+.tour-card1, .tour-card2, .tour-card3, .tour-card4{
+		display: inline-block;
+		text-align: center;
+		position: relative;
+		left:250px;
+}
+.tour-card1{
+	font-size: 1.5rem;
+	height:200px; 
+	width:200px;
+	color: #ffffff;
+	background-image: url(madrid.jpg);
+	background-size: cover;
+}
+.tour-card2{
+	font-size: 1.5rem;
+	height:200px; 
+	width:200px;
+	color: #ffffff;
+	background-image: url(turin.jpg);
+	background-size: cover;
+}
+.tour-card3{
+	font-size: 1.5rem;
+	height:200px; 
+	width:200px;
+	color: #ffffff;
+	background-image: url(hamburg.jpg);
+	background-size: cover;
+}
+.tour-card4{
+	font-size: 1.5rem;
+	height:200px; 
+	width:200px;
+	color: #ffffff;
+	background-image: url(krakow.jpg);
+	background-size: cover;
+}
+.photo1, .photo2, .photo3{
+	display: inline-block;
+	position: relative;
+	left:200px;
+	background-color: dimgray;
+	border: 1px solid dimgray;
+}
+.photo5, .photo6{
+	display: inline-block;
+	position: relative;
+	left:505px;
+	bottom:305px;
+	background-color: dimgray;
+	border: 1px solid dimgray;
+}
+.photo4{
+	position: relative;
+	left:200px;
+	background-color: dimgray;
+	border: 1px solid dimgray;
+}
+#subscribe{
+	background-image: url(bg-02.jpg);
+	background-size: cover;
+	height: 400px;
+	text-align: center;
+}
+.pitch{
+	position: relative;
+	top: 100px;
+	color:#ffffff;
+}
+form{
+	position: relative;
+	top: 200px;
+}
+input{
+	font-size: 2rem;
+}
+button{
+	font-size: 2rem;
+	background-color: #ff0033;
+}
+.social, .copyright{
+	font-size: 1.2rem;
+	text-align: center;
+	background-color: #54575b;
+}

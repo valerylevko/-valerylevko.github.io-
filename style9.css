@@ -1,0 +1,140 @@
+html{
+	background-color: white;
+	font-family: Raleway;
+	color: black;
+}
+header{
+	background-image: url(jumbotron.jpg);
+	background-size: cover;
+	height: 400px;
+	color:#ffffff;
+}
+.button1{
+	text-decoration: none;
+	color:#ffffff;
+	font-size: 1.5rem;
+	padding: 5px 10px;
+	background-color:  #ff0033;
+	position: relative;
+	top: 100px;
+	left:550px;
+	border: 6px solid #ff0033;
+	border-radius: 25px;
+}
+h1{
+	text-align: center;
+	font-size: 3rem;
+	position: relative;
+	top:50px;
+
+}
+ul.menu li {
+	font-size: 1rem;
+	display: inline-block;
+	padding: 5px 10px;
+	text-align: center;
+	float: right;
+	right: 100px;
+}
+#topbar{
+	color: black;
+	height: 50px;
+	background-color: white;
+}
+a{
+	text-decoration: none;
+	color:gray;
+}
+.pr{
+	text-decoration: none;
+	color:blue;
+	font-size: 1.4rem;
+	float:left;
+	background-color: white;
+	padding: 5px 10px;
+	position: relative;
+	left: 100px;
+}
+a:hover{
+	background-color: #ff0033;
+}
+h2{
+	font-size: 2rem;
+	text-align: center;
+	color: black;
+}
+#services, #blog{
+	position: relative;
+	top:50px;
+
+}
+figure{
+	background-size: cover;
+}
+.s1, .s2, .s3{
+		display: inline-block;
+		text-align: center;
+		position: relative;
+		left:300px;
+}
+.s1{
+	height:190px; 
+	width:240px;
+	background-image: url(Screenshot_1.png);
+}
+.s2{
+	height:190px; 
+	width:240px;
+	background-image: url(Screenshot_2.png);
+}
+.s3{
+	height:190px; 
+	width:240px;
+	background-image: url(Screenshot_3.png);
+}
+.photo1, .photo2{
+	position: relative;
+	left:200px;
+}
+.photo2{
+	position: relative;
+	left:200px;
+	bottom:180px;
+}
+.text, .textblock{
+	position: relative;
+	left:550px;
+	bottom:250px;
+	font-size: 2rem;
+}
+.textblock{
+	bottom:430px;
+}
+.text2, .textblock2{
+	position: relative;
+	left:550px;
+	bottom:250px;
+	font-size: 1.2rem;
+	color: gray;
+}
+.textblock2{
+	bottom: 430px;
+}
+footer{
+	color: white;
+	position: relative;
+	background-color: darkgray;
+	text-align: center;
+}
+.project{
+	font-size: 1.5rem;
+}
+.copyright{
+	font-size: 1.5rem;
+	position: relative;
+	background-color: darkgray;
+}
+.about, .team, .news, .contact{
+	display: inline-block;
+	position: relative;
+}

@@ -1,0 +1,103 @@
+html{
+	position: relative;
+	width: 375px;
+	height: 1948px;
+	background: #FFFFFF;
+}
+#HeroSection{
+	position: absolute;
+width: 373px;
+height: 275px;
+left: 0px;
+top: 0px;
+}
+.Background{
+	position: absolute;
+width: 373px;
+height: 275px;
+left: 0px;
+top: 0px;
+background: url(p.jpg), #F5D6AB;
+background-size: cover;
+}
+h1{
+	position: absolute;
+width: 116px;
+height: 29px;
+left: 129px;
+top: 36px;
+
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+color: #00BFFF;
+
+}
+
+.text1{
+	position: absolute;
+width: 217px;
+height: 24px;
+left: 78px;
+top: 115px;
+
+	font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+
+color:	#00BFFF;
+
+}
+.text2{
+position: absolute;
+width: 181px;
+height: 16px;
+left: 96px;
+top: 152px;
+
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+color:		#00BFFF;
+
+}
+.text3{
+	position: absolute;
+width: 79px;
+height: 16px;
+left: 146px;
+top: 209px;
+
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+text-decoration-line: underline;
+color:		#00BFFF;
+}
+.GlobalNavButton{
+	position: absolute;
+left: 34px;
+top: 39px;
+border-bottom: 12px double black;
+  border-top: 4px solid black;
+  content: "";
+  height: 4px;
+  width: 25px;
+  box-sizing: unset;
+  display: inline-block;
+  vertical-align: middle;
+}
